@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ko"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20260918-05-13efa67","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YACgEZulLoA,0","Arial Narrow":"YAGyDvJ_4Ts,0","Arial Rounded MT Bold":"YAFcfoaHu-s,0","Arial":"YAGyDvJ_4Ts,0","Avenir Next":"YAFcfmNq6UY,0","Baloo 2":"YADK30bC6HQ,0","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAFcfvtOAUY,1","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHQutsX00Q,0","Hanken Grotesk":"YAFcfhwp99E,0","Helvetica Neue":"YAFcf6CtJfI,0","Helvetica":"YAFcf6CtJfI,0","IBM Plex Mono":"YAFdJkmvhGI,0","Impact":"YAFcfnjI7Vk,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YADK3zbC6RM,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Pacifico":"YADLjORQ1u4,0","Phantom Sans":"YAFdJvgJ5TU,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAGvf3_u0_Q,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Source Serif 4":"YACgEfdj394,0","Space Grotesk":"YADZ-dYEmhg,0","Space Mono":"YADW1-vpsoc,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","UV Display":"YAEdVfSSpYo,0","UV Sans":"YAFdJvgJ5TU,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0","ui-monospace":"YAD1aFjegN8,0","ui-sans-serif":"YACkoD1yZN0,0"}}');</script><script src="/_sdk/83d6dfdadcd4750a.telemetry_sdk.js" integrity="sha512-XS4Dvzp6vbagZS9vFErihvr8aO3S0tH78KWUefn06fmL4WYqryBtZj/IOLITYj7dFA4gPVvPg1W/JB1DK3uLNQ=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YUNHEE_LIM</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #111111;
+      --paper: #f5f5f3;
+      --muted: #626262;
+      --line: #d2d2d2;
+      --soft: #e8e8e8;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: "DM Sans", sans-serif; color: var(--ink); overflow-x: hidden; }
+    .display-font { font-family: "Fraunces", serif; }
+    .portfolio-shell { width: 100%; background: var(--paper); }
+    .nav-shell {
+      background: rgba(245,245,243,.94);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+    }
+    .hero-grid {
+      background-image: linear-gradient(rgba(17,17,17,.07) 1px, transparent 1px), linear-gradient(90deg, rgba(17,17,17,.07) 1px, transparent 1px);
+      background-size: 38px 38px;
+    }
+    .eyebrow { letter-spacing: .16em; text-transform: uppercase; font-size: .72rem; font-weight: 700; }
+    .project-card { border: 1px solid var(--line); transition: transform .35s ease, box-shadow .35s ease; }
+    .project-card:hover { transform: translateY(-6px); box-shadow: 7px 8px 0 #111; }
+    .project-card img { filter: grayscale(1); transition: transform .55s ease; }
+    .project-card:hover img { transform: scale(1.05); }
+    .skill-pill { border: 1px solid var(--ink); }
+    .process-number { -webkit-text-stroke: 1px var(--ink); color: transparent; }
+    .modal-backdrop { background: rgba(0,0,0,.72); backdrop-filter: blur(7px); }
+    .reveal { animation: reveal .7s both; }
+    .reveal-delay { animation: reveal .7s .15s both; }
+    .reveal-delay-2 { animation: reveal .7s .28s both; }
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    button:focus-visible, a:focus-visible { outline: 3px solid #111; outline-offset: 4px; }
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .hero-title { font-size: clamp(3.8rem, 17vw, 5.6rem); line-height: .89; }
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/8de366929c5f3b48.data_sdk.js" type="text/javascript" integrity="sha512-TyQ8k8cZj66xe/aENmn6RyZpdOFZXbAo5+KBG3PeFM+Q4qMTHU8xAqmq4ADClNfPrstgQYV6OzZHwLTnElzB2g=="></script>
+  <script src="/_sdk/0ddbbee1c66b1212.editing_sdk.js" type="text/javascript" integrity="sha512-HQn5LM1yruQSbY78ATUril6QeOJ9xj7KqO64ltLtb4vBwI5Qv3/tloFFOndBPZTNZoeV5xKzuth5y6FTi9crsg=="></script>
+  <script src="/_sdk/765e1fea0cec97ce.resizing_sdk.js" type="text/javascript" integrity="sha512-IRTJnqww0+HQ5V/LlWEQrlD5SrYHaVvaeVoNe8HYQXoaguzUGheSd9+n9s6WOgaTcEH0g37DuINHZ9aqfzWjlw=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(245, 245, 243);">
+  <div class="portfolio-shell min-h-screen w-full">
+   <header class="nav-shell sticky top-0 z-40 w-full">
+    <nav aria-label="Main navigation" class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
+     <a href="#home" data-template-id="nav-brand" class="canva-link font-bold tracking-tight" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">YUNNY / Portfolio</a>
+     <div class="nav-links flex items-center gap-7 text-sm font-semibold">
+      <a data-template-id="nav-about" class="canva-link transition-colors hover:text-neutral-500" href="#about" style="color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">About</a> <a data-template-id="nav-work" class="canva-link transition-colors hover:text-neutral-500" href="#work" style="color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">Work</a> <a data-template-id="nav-process" class="canva-link transition-colors hover:text-neutral-500" href="#process" style="color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">Process</a> <a data-template-id="nav-contact" class="canva-link transition-colors hover:text-neutral-500" href="#contact" style="color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">Contact</a>
+     </div>
+    </nav>
+   </header>
+   <main>
+    <section id="home" class="hero-grid relative overflow-hidden border-b border-neutral-300">
+     <div class="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:py-32">
+      <div class="max-w-5xl">
+       <p data-template-id="hero-status" class="canva-tag eyebrow reveal inline-flex rounded-full px-3 py-2" style="background: rgb(232, 232, 232); color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">Available for select projects</p>
+       <h1 data-template-id="hero-name" class="canva-text display-font hero-title reveal-delay mt-8 max-w-5xl text-[clamp(4.8rem,11vw,10.5rem)] font-semibold leading-[.82] tracking-[-.075em]" style="color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 32px;">YUNHEE LIM</h1>
+       <div class="mt-10 grid gap-7 border-t border-neutral-800 pt-6 md:grid-cols-[1fr_1fr] md:gap-12">
+        <p data-template-id="hero-role" class="canva-text reveal-delay text-xl font-semibold leading-tight md:text-2xl" style="color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 24px;">I create clear and digital experiences, grounded in ideas worth sharing.</p>
+        <div class="reveal-delay-2">
+         <p data-template-id="hero-intro" class="canva-text max-w-lg text-base leading-7" style="color: rgb(85, 85, 85); font-weight: 400; font-style: normal; font-size: 17px; line-height: 1.6;"></p><a href="#work" data-template-id="hero-work-button" class="canva-button mt-7 inline-flex items-center gap-2 rounded-full px-5 py-3 font-bold transition-transform hover:-translate-y-0.5" style="background: rgb(17, 17, 17); color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Explore selected work</a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="about" class="border-b border-neutral-300 bg-white">
+     <div class="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:px-8 lg:grid-cols-[.65fr_1.35fr] lg:py-28">
+      <p data-template-id="about-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">01 — About</p>
+      <div>
+       <p data-template-id="about-copy" class="canva-text mt-7 max-w-2xl text-lg leading-8" style="color: rgb(85, 85, 85); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.7;">Detail-oriented professional with a comprehensive understanding of the apparel wholesale industry, specializing in fabric characteristics and design data management. Proficient in managing technical design specifications, apparel tech packs, and production data within vendor environments. Combines hands-on experience in textile quality control with web publishing skills (HTML/CSS) and digital design capabilities. Adept at transforming physical apparel concepts and design assets into high-converting e-commerce product pages, ready to deliver fast, accurate results for a Graphic Design and Web Team role.</p>
+      </div>
+     </div>
+    </section>
+    <section id="work" class="border-b border-neutral-300">
+     <div class="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:py-28">
+      <div class="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+       <div>
+        <p data-template-id="work-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">02 — Selected work</p>
+        <h2 data-template-id="work-title" class="canva-text display-font mt-3 text-5xl font-semibold tracking-[-.05em] md:text-6xl" style="color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 24px;">A few things I've made.</h2>
+       </div>
+       
+      </div>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+       <article class="project-card overflow-hidden rounded-2xl bg-white">
+        <button type="button" class="block w-full text-left" data-project-open="project-1" aria-label="Open project details">
+         <div class="aspect-[4/3] overflow-hidden"><img data-template-id="project-1-image" loading="lazy" class="canva-image h-full w-full object-contain" src="file:///C:/Users/Owner/Desktop/yunny/reddot_screenshot.jpg?auto=compress&amp;cs=tinysrgb&amp;w=800">
+         </div>
+         <div class="p-6">
+          <h3 data-template-id="project-1-title" class="canva-text mt-3 text-2xl font-bold tracking-tight" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 24px;">UI Developer</h3>
+          <span data-template-id="project-1-link" class="canva-link mt-6 inline-flex items-center gap-2 font-bold underline decoration-2 underline-offset-4" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">View project ↗</span>
+         </div></button>
+       </article>
+       <article class="project-card overflow-hidden rounded-2xl bg-white">
+        <button type="button" class="block w-full text-left" data-project-open="project-2" aria-label="Open project details">
+         <div class="aspect-[4/3] overflow-hidden"><img data-template-id="project-2-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/dondaemoon_screenshot.jpg" alt="Black and white photo of smartphone showing popular app icons like Facebook and WhatsApp.">
+         </div>
+         <div class="p-6">
+          <h3 data-template-id="project-2-title" class="canva-text mt-3 text-2xl font-bold tracking-tight" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 24px;">UI Developer</h3>
+          <span data-template-id="project-2-link" class="canva-link mt-6 inline-flex items-center gap-2 font-bold underline decoration-2 underline-offset-4" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">View project ↗</span>
+         </div></button>
+       </article>
+       <article class="project-card overflow-hidden rounded-2xl bg-white">
+        <button type="button" class="block w-full text-left" data-project-open="project-3" aria-label="Open project details">
+         <div class="aspect-[4/3] overflow-hidden"><img data-template-id="project-3-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/cabinstory_screenshot.jpg" alt="Collection of black mockup business cards placed against white wall and scattered on white surface.">
+         </div>
+         <div class="p-6">
+          <h3 data-template-id="project-3-title" class="canva-text mt-3 text-2xl font-bold tracking-tight" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 24px;">UI Developer</h3>
+          <span data-template-id="project-3-link" class="canva-link mt-6 inline-flex items-center gap-2 font-bold underline decoration-2 underline-offset-4" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">View project ↗</span>
+         </div></button>
+       </article>
+
+       <article class="project-card overflow-hidden rounded-2xl bg-white">
+        <button type="button" class="block w-full text-left" data-project-open="project-4" aria-label="Open project details">        
+          <div class="aspect-[4/3] overflow-hidden"><img data-template-id="project-4-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/gyeonggiyouthcenter_screenshot.jpg" alt="Collection of black mockup business cards placed against white wall and scattered on white surface.">
+         </div>
+          <div class="p-6">
+          <h3 data-template-id="project-4-title" class="canva-text mt-3 text-2xl font-bold tracking-tight" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 24px;">UI Developer</h3>
+          <span data-template-id="project-4-link" class="canva-link mt-6 inline-flex items-center gap-2 font-bold underline decoration-2 underline-offset-4" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">View project ↗</span>
+         </div></button>
+       </article>
+
+       <article class="project-card overflow-hidden rounded-2xl bg-white">
+        <button type="button" class="block w-full text-left" data-project-open="project-5" aria-label="Open project details">
+         <div class="aspect-[4/3] overflow-hidden"><video class="max-h-[60vh] w-full object-contain grayscale" autoplay loop muted playsinline><source src="file:///C:/Users/Owner/Desktop/yunny/instar_form.mp4" type="video/mp4"></video>
+          </div>
+          <div class="p-6">
+          <h3 data-template-id="project-5-title" class="canva-text mt-3 text-2xl font-bold tracking-tight" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 24px;">CANVA_INSTARGRAM RILLS</h3>
+          <span data-template-id="project-5-link" class="canva-link mt-6 inline-flex items-center gap-2 font-bold underline decoration-2 underline-offset-4" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">View project ↗</span>
+         </div></button>
+       </article>
+
+       <article class="project-card overflow-hidden rounded-2xl bg-white">
+        <button type="button" class="block w-full text-left" data-project-open="project-6" aria-label="Open project details">        
+          <div class="aspect-[4/3] overflow-hidden"><img data-template-id="project-6-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/leica_product_ci.jpg" alt="Collection of black mockup business cards placed against white wall and scattered on white surface.">
+         </div>
+          <div class="p-6">
+          <h3 data-template-id="project-6-title" class="canva-text mt-3 text-2xl font-bold tracking-tight" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 24px;">PRODUCT CI</h3>
+          <span data-template-id="project-6-link" class="canva-link mt-6 inline-flex items-center gap-2 font-bold underline decoration-2 underline-offset-4" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 16px;">View project ↗</span>
+         </div></button>
+       </article>
+
+
+      </div>
+     </div>
+    </section>
+    
+    
+    <section id="process" class="border-b border-neutral-300 bg-white">
+       <div class="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:px-8 lg:grid-cols-[.8fr_1.2fr] lg:py-24">
+      <div>
+       <p data-template-id="skills-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">03 — SKILLS</p>
+      
+       
+      </div>
+      <div class="flex flex-wrap content-start gap-3">
+       <span data-template-id="skill-1" class="canva-tag skill-pill rounded-full px-5 py-3 font-semibold" style="background: transparent; color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">HTML & CSS</span>
+       <span data-template-id="skill-2" class="canva-tag skill-pill rounded-full px-5 py-3 font-semibold" style="background: transparent; color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">js.</span>
+       <span data-template-id="skill-3" class="canva-tag skill-pill rounded-full px-5 py-3 font-semibold" style="background: transparent; color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">Photoshop / Illustrator</span>
+       <span data-template-id="skill-4" class="canva-tag skill-pill rounded-full px-5 py-3 font-semibold" style="background: transparent; color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">CANVA</span>
+       <span data-template-id="skill-5" class="canva-tag skill-pill rounded-full px-5 py-3 font-semibold" style="background: transparent; color: rgb(17, 17, 17); font-weight: 600; font-style: normal; font-size: 16px;">Excel / PowerPoint / Word</span>
+      
+      </div>
+     </div>
+    
+    </section>
+
+
+
+    <section class="border-b border-neutral-300">
+     <div class="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:px-8 lg:grid-cols-[.65fr_1.35fr] lg:py-24">
+      <p data-template-id="experience-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">04 — Experience</p>
+      <div class="space-y-8">
+       <article class="grid gap-2 border-b border-neutral-300 pb-8 md:grid-cols-[.8fr_1.2fr]">
+        <p data-template-id="experience-1-date" class="canva-text text-sm font-bold" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">Apr 2025 — Present</p>
+        <div>
+         <h3 data-template-id="experience-1-title" class="canva-text text-xl font-bold" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 20px;">she and sky - Apparel Wholesale Company</h3>
+         <p data-template-id="experience-1-copy" class="canva-text mt-2 leading-7" style="color: rgb(85, 85, 85); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Quality Control<BR/>Performed rigorous quality checks and fabric inspection, identifying material defects and ensuring textile standards for wholesale distribution.<BR/> Managed design-related data entry, maintaining accurate records of style specifications, fabric types, and production charts.</p>
+        </div>
+       </article>
+       <article class="grid gap-2 border-b border-neutral-300 pb-8 md:grid-cols-[.8fr_1.2fr]">
+        <p data-template-id="experience-2-date" class="canva-text text-sm font-bold" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">2023 - 2025</p>
+        <div>
+         <h3 data-template-id="experience-2-title" class="canva-text text-xl font-bold" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 20px;">han bouti, Inc. - Apparel Store</h3>
+         <p data-template-id="experience-2-copy" class="canva-text mt-2 leading-7" style="color: rgb(85, 85, 85); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Managed in-store sales of apparel products, evaluating customer feedback on fabric fit and texture to optimize display curation.<BR/>Maintained and operated the point-of-sale (POS) program for accurate transaction and apparel stock tracking.</p>
+        </div>
+        
+       </article>
+       <article class="grid gap-2 border-b border-neutral-300 pb-8 md:grid-cols-[.8fr_1.2fr]">
+        <p data-template-id="experience-2-date" class="canva-text text-sm font-bold" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">2017-2018</p>
+        <div>
+         <h3 data-template-id="experience-2-title" class="canva-text text-xl font-bold" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 20px;">sky express, Inc. - Korean E-commerce Platform Seller</h3>
+         <p data-template-id="experience-2-copy" class="canva-text mt-2 leading-7" style="color: rgb(85, 85, 85); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Created and managed highly converting product detail pages, accurately translating apparel design data and fabric textures into compelling digital visual content.<BR/>Optimized product images, layout alignment, and promotional content to maximize cross-border online sales.</p>
+        </div>
+        <div>
+        </article>
+       <article class="grid gap-2 border-b border-neutral-300 pb-8 md:grid-cols-[.8fr_1.2fr]">
+        <p data-template-id="experience-2-date" class="canva-text text-sm font-bold" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">2008-2011</p>
+        <div>
+         <h3 data-template-id="experience-2-title" class="canva-text text-xl font-bold" style="color: rgb(17, 17, 17); font-weight: 700; font-style: normal; font-size: 20px;">word and code, Inc.-Web Agency</h3>
+         <p data-template-id="experience-2-copy" class="canva-text mt-2 leading-7" style="color: rgb(85, 85, 85); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Edited and designed responsive websites, wireframes, and digital visual assets.<BR/>Built and structured digital content using HTML, CSS, and basic JavaScript.</p>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="contact" class="bg-neutral-950 text-white">
+     <div class="mx-auto max-w-7xl px-5 py-20 md:px-8 lg:py-28">
+      <p data-template-id="contact-label" class="canva-text eyebrow" style="color: rgb(207, 207, 207); font-weight: 700; font-style: normal; font-size: 16px;">06 — Contact</p>
+      <h2 data-template-id="contact-title" class="canva-text display-font mt-4 max-w-4xl text-5xl font-semibold leading-[.96] tracking-[-.055em] md:text-7xl" style="color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 24px;">MY INBOX IS ALWAYS OPEN.</h2>
+      <a href="unilim22@gmail.com" data-template-id="contact-email" class="canva-link mt-10 inline-flex items-center gap-3 text-2xl font-bold underline decoration-4 underline-offset-8 md:text-4xl" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">UNILIM22@GMAIL.COM</a>
+      
+     </div>
+    </section>
+   </main>
+   <footer class="bg-neutral-950 px-5 pb-7 md:px-8">
+    <div class="mx-auto flex max-w-7xl items-center justify-between border-t border-white/20 pt-6 text-sm">
+     <p data-template-id="footer-copy" class="canva-text" style="color: rgb(207, 207, 207); font-weight: 400; font-style: normal; font-size: 14px;">© 2026 YUNHEE_LIM</p><a href="#home" data-template-id="back-top" class="canva-link font-bold" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Back to top ↑</a>
+    </div>
+   </footer>
+  </div>
+  <div id="project-modal" class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-5" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+   <div class="relative max-h-[80vh] w-full max-w-2xl overflow-y-auto rounded-2xl bg-neutral-100 p-7 shadow-2xl md:p-10">
+    <button id="modal-close" type="button" aria-label="Close project details" class="absolute right-5 top-5 rounded-full border border-neutral-900 p-2 transition-colors hover:bg-neutral-900 hover:text-white"><i data-lucide="x" class="h-5 w-5"></i></button>
+    <div id="project-1-detail" class="project-detail hidden">
+     <p data-template-id="detail-1-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">Project overview</p>
+     <div class="overflow-hidden"><img data-template-id="project-1-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/reddot_screenshot.jpg"></div>
+    </div>
+    <div id="project-2-detail" class="project-detail hidden">
+     <p data-template-id="detail-2-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">Project overview</p>
+     <div class="overflow-hidden"><img data-template-id="project-1-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/dondaemoon_screenshot.jpg"></div>
+    </div>
+    <div id="project-3-detail" class="project-detail hidden">
+     <p data-template-id="detail-3-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">Project overview</p>
+     <div class="overflow-hidden"><img data-template-id="project-1-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/cabinstory_screenshot.jpg"></div>
+    </div>
+    <div id="project-4-detail" class="project-detail hidden">
+     <p data-template-id="detail-4-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">Project overview</p>
+     <div class="overflow-hidden"><img data-template-id="project-1-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/gyeonggiyouthcenter_screenshot.jpg"></div>
+    </div>
+  
+    <div id="project-5-detail" class="project-detail hidden">
+     <p data-template-id="detail-5-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">Project overview</p>
+     <div class="overflow-hidden"><video data-template-id="project-1-image" loading="lazy" class="mx-auto aspect-[9/16] max-h-[60vh] max-w-[320px] overflow-hidden rounded-xl bg-black" autoplay loop muted playsinline><source src="file:///C:/Users/Owner/Desktop/yunny/instar_form.mp4" type="video/mp4"></video></div>
+    </div>
+
+    <div id="project-6-detail" class="project-detail hidden">
+     <p data-template-id="detail-6-label" class="canva-text eyebrow" style="color: rgb(85, 85, 85); font-weight: 700; font-style: normal; font-size: 16px;">Project overview</p>
+     <div class="overflow-hidden"><img data-template-id="project-1-image" loading="lazy" class="canva-image h-full w-full object-cover" src="file:///C:/Users/Owner/Desktop/yunny/leica_product_ci.jpg"></div>
+    </div>
+
+   </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      lucide.createIcons();
+      const modal = document.getElementById("project-modal");
+      const closeButton = document.getElementById("modal-close");
+      const details = document.querySelectorAll(".project-detail");
+
+      function closeModal() {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+        details.forEach((detail) => detail.classList.add("hidden"));
+      }
+
+      document.querySelectorAll("[data-project-open]").forEach((button) => {
+        button.addEventListener("click", () => {
+          details.forEach((detail) => detail.classList.add("hidden"));
+          document.getElementById(button.dataset.projectOpen + "-detail").classList.remove("hidden");
+          modal.classList.remove("hidden");
+          modal.classList.add("flex");
+          closeButton.focus();
+        });
+      });
+
+      closeButton.addEventListener("click", closeModal);
+      modal.addEventListener("click", (event) => { if (event.target === modal) closeModal(); });
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !modal.classList.contains("hidden")) closeModal();
+      });
+    });
+  </script>
+ 
+</body></html>
